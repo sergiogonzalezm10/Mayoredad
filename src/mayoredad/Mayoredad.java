@@ -6,7 +6,7 @@ public class Mayoredad {
 
 	public static void main(String[] args) {
 		int edad;
-		boolean mayor = true;
+		boolean mayor = false;					//
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Mi edad es: ");
 		edad = sc.nextInt();
