@@ -12,7 +12,7 @@ public class Mayoredad {
 		edad = sc.nextInt();					//Lee la edad introducida y la guarda en su variable
 		mayor = edad >= 18;						//Compara la edad introducida para saber si es mayor o igual a 18
 										
-		System.out.println("¿Eres mayor de edad? " + mayor); //Nos indica si somos mayores o no, gracias al boolean, true o false
+		System.out.println("¿Eres mayor de edad? " + ( mayor ? "Sí" : "No")); //Nos indica si somos mayores o no, gracias al boolean, true o false
 		
 		sc.close();			//Cerramos escáner
 	}
